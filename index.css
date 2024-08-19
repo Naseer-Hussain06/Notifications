@@ -1,0 +1,93 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0px;
+}
+
+.notification-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+.notification-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+  .notification-list-container {
+    width: 60%;
+  }
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  margin-top: 12px;
+  margin-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-container {
+    margin-bottom: 48px;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+}
+.blue-card {
+  background-color: #0b69ff;
+}
+
+.green-card {
+  background-color: #2dca73;
+}
+
+.yellow-card {
+  background-color: rgb(230, 241, 70);
+}
+
+.red-card {
+  background-color: #f11c1c;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}
+
+.card-info {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Roboto';
+}
